@@ -21,5 +21,6 @@ edgar*.json
 
 # local data files
 tmp/
-profiling_output/
 filings/
+cache_content
+cache_content/
