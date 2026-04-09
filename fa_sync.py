@@ -24,6 +24,8 @@ from google.cloud import storage
 
 DEFAULT_JOBS = 2
 
+os.environ["GCE_METADATA_MTLS_MODE"] = "none"
+
 
 @dataclass(frozen=True)
 class RemoteObject:
